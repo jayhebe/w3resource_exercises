@@ -1,6 +1,3 @@
-from pprint import pprint
-
-
 def repeated_chars(char_str):
     result = {}
     for ch in char_str:
@@ -11,4 +8,4 @@ def repeated_chars(char_str):
 
 
 if __name__ == '__main__':
-    pprint(repeated_chars("thequickbrownfoxjumpsoverthelazydog"))
+    print(repeated_chars("thequickbrownfoxjumpsoverthelazydog"))
